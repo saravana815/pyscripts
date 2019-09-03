@@ -399,12 +399,5 @@ eval interact $option_keys {
     }
 }
 
-#cmd {
-##send email
-#set recipient $env(USER) 
-#set subject_body "Script $argv0 Logs - http://bgl-ads-1214:5000/file?filename=$env(PWD)/$logfile"
-#exec mail -s $subject_body $recipient <<$subject_body
-#}
-
 close $fd
 verbose_send_user "autoexpect done, file is $filename\n"
