@@ -19,12 +19,6 @@ Changes to new tool
 
 
 
-git checkout
-------------
-
-  * git clone git@wwwin-gitlab-sjc.cisco.com:sargandh/easyexpect.git
-      
- 
 Usage:
 
 [sargandh:bgl-ads-1214]$ ./easyexpect -h
